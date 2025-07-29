@@ -10,6 +10,10 @@
 - 알고리즘 문제 해결 경험을 쌓고 있습니다
 - [Solved.ac 프로필](https://solved.ac/profile/samidare20)에서 더 자세한 정보를 확인할 수 있습니다
 
+[![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dolphine103)](https://solved.ac/dolphine103)
+
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samidare20)
+
 ### 💻 기술 스택
 - **주요 언어**: JavaScript, TypeScript, Python
 - **프레임워크**: React, Docusaurus
