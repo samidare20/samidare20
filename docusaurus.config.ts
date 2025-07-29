@@ -6,7 +6,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Samidare20',
-  tagline: '알고리즘 문제 해결과 웹 개발을 즐기는 개발자',
+  tagline: '러다이트 운동 준비중인 개발자',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -85,7 +85,7 @@ const config: Config = {
           position: 'left',
           label: '문서',
         },
-        {to: '/blog', label: '블로그', position: 'left'},
+        // {to: '/blog', label: '블로그', position: 'left'},
         {
           href: 'https://github.com/samidare20/samidare20',
           label: 'GitHub',
@@ -135,10 +135,10 @@ const config: Config = {
         {
           title: '더보기',
           items: [
-            {
-              label: '블로그',
-              to: '/blog',
-            },
+            // {
+            //   label: '블로그',
+            //   to: '/blog',
+            // },
             {
               label: 'GitHub',
               href: 'https://github.com/samidare20/samidare20',
