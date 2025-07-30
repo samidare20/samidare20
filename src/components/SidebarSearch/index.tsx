@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useMemo } from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 
@@ -16,8 +16,8 @@ export default function SidebarSearch(): React.JSX.Element {
   const [showResults, setShowResults] = useState(false);
   const searchRef = useRef<HTMLDivElement>(null);
 
-  // 빌드 타임에 생성된 검색 데이터 사용
-  const collectAllDocs = (): SearchResult[] => {
+  // 검색 데이터를 메모이제이션으로 최적화
+  const allDocs = useMemo((): SearchResult[] => {
     try {
       // 빌드 타임에 생성된 검색 데이터 import
       const searchData = require('./searchData.json');
@@ -30,16 +30,15 @@ export default function SidebarSearch(): React.JSX.Element {
       console.error('검색 데이터 로드 실패:', error);
       return [];
     }
-  };
+  }, []);
 
   // 검색 결과를 필터링하는 함수
   const filterResults = (term: string): SearchResult[] => {
     if (!term.trim()) return [];
-    
-    const allDocs = collectAllDocs();
+
     const lowerTerm = term.toLowerCase();
-    
-    return allDocs.filter(doc => 
+
+    return allDocs.filter(doc =>
       doc.title.toLowerCase().includes(lowerTerm)
     );
   };
@@ -48,16 +47,15 @@ export default function SidebarSearch(): React.JSX.Element {
   const handleSearch = (term: string) => {
     setSearchTerm(term);
     setIsSearching(true);
-    
+
     setTimeout(() => {
       const filteredResults = filterResults(term);
       setResults(filteredResults);
       setIsSearching(false);
       setShowResults(term.length > 0);
-      
+
       // 디버깅용: 수집된 문서 목록 출력
       if (term.length === 0) {
-        const allDocs = collectAllDocs();
         console.log('수집된 문서 목록:', allDocs);
       }
     }, 100);
@@ -70,7 +68,7 @@ export default function SidebarSearch(): React.JSX.Element {
     setSearchTerm('');
   };
 
-  // 외부 클릭 시 결과 숨기기 및 초기 문서 수집
+  // 외부 클릭 시 결과 숨기기
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (searchRef.current && !searchRef.current.contains(event.target as Node)) {
@@ -79,16 +77,6 @@ export default function SidebarSearch(): React.JSX.Element {
     };
 
     document.addEventListener('mousedown', handleClickOutside);
-    
-    // 초기 문서 수집 (페이지 로드 후)
-    const initialCollection = () => {
-      setTimeout(() => {
-        const allDocs = collectAllDocs();
-      }, 1000);
-    };
-    
-    initialCollection();
-    
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
@@ -102,14 +90,14 @@ export default function SidebarSearch(): React.JSX.Element {
           onChange={(e) => handleSearch(e.target.value)}
           className={styles.searchInput}
         />
-        <button 
+        <button
           className={styles.searchButton}
           onClick={() => handleSearch(searchTerm)}
         >
           🔍
         </button>
       </div>
-      
+
       {showResults && (
         <div className={styles.searchResults}>
           {isSearching ? (
@@ -117,7 +105,7 @@ export default function SidebarSearch(): React.JSX.Element {
           ) : results.length > 0 ? (
             <ul className={styles.resultsList}>
               {results.map((result, index) => (
-                <li 
+                <li
                   key={index}
                   className={styles.resultItem}
                   onClick={() => handleResultClick(result.url)}

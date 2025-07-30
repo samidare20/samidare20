@@ -15,16 +15,6 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   // 수동으로 사이드바 구성
   tutorialSidebar: [
-    // 검색바
-    {
-      type: 'html',
-      value: '<div id="sidebar-search-container"></div>',
-    },
-    // 기본 문서들
-    {
-      type: 'html',
-      value: '<hr style="margin: 1rem 0; border: 0; border-top: 1px solid #e5e7eb;" />',
-    },
     'intro',
     {
       type: 'category',
