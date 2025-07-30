@@ -5,7 +5,6 @@ import styles from './styles.module.css';
 interface SearchResult {
   title: string;
   url: string;
-  content?: string;
 }
 
 export default function SidebarSearch(): React.JSX.Element {
@@ -23,8 +22,7 @@ export default function SidebarSearch(): React.JSX.Element {
       const searchData = require('./searchData.json');
       return searchData.map((doc: any) => ({
         title: doc.title,
-        url: doc.url,
-        content: doc.content
+        url: doc.url
       }));
     } catch (error) {
       console.error('검색 데이터 로드 실패:', error);

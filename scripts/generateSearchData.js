@@ -26,7 +26,7 @@ function scanDocsDirectory(dir, basePath = '') {
       const docId = relativePath.replace(/\.(md|mdx)$/, '');
       
       try {
-        // 파일 내용 읽기
+        // 파일 내용 읽기 (제목 추출을 위해서만)
         const content = fs.readFileSync(filePath, 'utf8');
         const { data: frontmatter, content: markdownContent } = matter(content);
         
@@ -40,13 +40,11 @@ function scanDocsDirectory(dir, basePath = '') {
         // URL 생성
         const url = `/samidare20/docs/${docId}`;
         
-        // 검색 데이터에 추가
+        // 검색 데이터에 추가 (제목과 URL만 저장)
         searchData.push({
           id: docId,
           title: title,
-          url: url,
-          content: markdownContent,
-          frontmatter: frontmatter
+          url: url
         });
         
       } catch (error) {
