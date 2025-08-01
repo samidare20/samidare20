@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 
 type Props = WrapperProps<typeof DocSidebarType>;
 
-export default function DocSidebarWrapper(props: Props): JSX.Element {
+export default function DocSidebarWrapper(props: Props): React.JSX.Element {
   return (
     <div className={styles.sidebarWrapper}>
       {/* 검색창을 사이드바 상단에 고정 */}

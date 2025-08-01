@@ -42,7 +42,7 @@ export default function Home(): ReactNode {
             Docusaurus 기본 사용법부터 배포까지 단계별로 학습할 수 있습니다.
           </>
         ),
-        link: '/docs/tutorial-basics/create-a-document',
+        link: '/category/tutorial---basics',
         icon: '📚',
         itemCount: 4,
       },
@@ -53,7 +53,7 @@ export default function Home(): ReactNode {
             버전 관리, 다국어 지원 등 고급 기능들을 알아보세요.
           </>
         ),
-        link: '/docs/tutorial-extras/manage-docs-versions',
+        link: '/category/tutorial---extras',
         icon: '⚙️',
         itemCount: 2,
       },
@@ -64,7 +64,7 @@ export default function Home(): ReactNode {
             Git 명령어와 GitHub 활용법에 대한 실용적인 가이드입니다.
           </>
         ),
-        link: '/docs/github/stash',
+        link: '/category/github',
         icon: '🔧',
         itemCount: 2,
       },
