@@ -42,11 +42,13 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/samidare20/samidare20/tree/main/',
         },
+        // pages: true,
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -83,7 +85,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: '문서',
+          label: 'utils',
         },
         // {to: '/blog', label: '블로그', position: 'left'},
         {

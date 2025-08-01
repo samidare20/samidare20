@@ -40,6 +40,7 @@ const sidebars: SidebarsConfig = {
       label: 'Git & GitHub',
       items: [
         'github/stash',
+        'github/alias',
       ],
     },
     // 구분선
