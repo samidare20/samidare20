@@ -1,2 +1,2 @@
 #!/bin/bash
-GIT_USER=samidare20 yarn deploy
+GIT_USER={samidare20} yarn docusaurus deploy
