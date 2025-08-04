@@ -46,6 +46,7 @@ const config: Config = {
           // 자동 사이드바 생성을 위한 설정
           sidebarCollapsible: true,
           sidebarCollapsed: false,
+          // 아코디언 모드: 하나의 폴더가 열리면 다른 폴더들이 자동으로 닫힘
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -72,6 +73,14 @@ const config: Config = {
         },
       } satisfies Preset.Options,
     ],
+  ],
+
+  // 사이드바 아코디언 기능을 위한 스크립트 추가
+  scripts: [
+    {
+      src: '/src/js/sidebar-accordion.js',
+      async: true,
+    },
   ],
 
   themeConfig: {
