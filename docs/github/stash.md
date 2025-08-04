@@ -12,6 +12,11 @@ $ git stash
 Saved working directory and index state WIP on main: abc1234 Latest commit message
 ```
 
+
+```bash title="stash 이름 지정해 저장하기"
+$ git stash save "123"
+Saved working directory and index state On main: 123
+```
 ### stash 목록 확인
 
 ```bash
@@ -30,7 +35,7 @@ $ git stash pop
 $ git stash apply stash@{1}
 ```
 
-### stash 삭제하기
+### stash 적용 없이 삭제하기
 
 ```bash title="가장 최근의 stash 삭제"
 $ git stash drop
