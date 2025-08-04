@@ -1,47 +1,36 @@
+# 시작하기
+
+Samidare20의 개발 문서에 오신 것을 환영합니다!
+
+## 소개
+
+이 사이트는 다양한 개발 도구와 알고리즘에 대한 학습 자료를 제공합니다.
+
+## 주요 섹션
+
+### 🔧 Utils
+개발에 유용한 도구들과 팁을 모아놓은 섹션입니다.
+- GitHub 관련 도구
+- 개발 환경 설정
+- 유용한 스크립트들
+
+### 📊 Algorithm
+알고리즘과 자료구조에 대한 학습 자료입니다.
+- 기본 자료구조
+- 정렬 알고리즘
+- 탐색 알고리즘
+- 그래프 알고리즘
+
+## 시작하는 방법
+
+1. 상단 네비게이션에서 원하는 섹션을 선택하세요
+2. 왼쪽 사이드바에서 구체적인 주제를 찾아보세요
+3. 각 문서에서 실습 예제를 따라해보세요
+
+## 기여하기
+
+이 문서에 기여하고 싶으시다면 [GitHub 저장소](https://github.com/samidare20/samidare20)를 방문해주세요.
+
 ---
-sidebar_position: 1
----
 
-# Tutorial Intro
-
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
-
-Get started by **creating a new site**.
-
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+**Happy coding! 🚀**

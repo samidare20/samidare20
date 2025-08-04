@@ -93,6 +93,12 @@ const config: Config = {
           position: 'left',
           label: 'utils',
         },
+        {
+          type: 'docSidebar',
+          sidebarId: 'algorithmSidebar',
+          position: 'left',
+          label: 'algorithm & DataStructure',
+        },
         // {to: '/blog', label: '블로그', position: 'left'},
         {
           href: 'https://github.com/samidare20/samidare20',
@@ -114,15 +120,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: '문서',
-          items: [
-            {
-              label: '시작하기',
-              to: '/intro',
-            },
-          ],
-        },
         {
           title: '커뮤니티',
           items: [

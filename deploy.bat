@@ -1,4 +1,5 @@
 @echo off
-set "GIT_USER=samidare20"
-@REM set "USE_SSH=true"
-yarn docusaurus deploy
+git add .
+set /p str=enter commit message : 
+git commit -m %str%
+npm run deploy

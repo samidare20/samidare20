@@ -68,6 +68,17 @@ export default function Home(): ReactNode {
         icon: '🔧',
         itemCount: 2,
       },
+      {
+        title:'Algorithm & DataStructure',
+        description:(
+          <>
+          알고리즘이랑 자료구조
+          </>
+        ),
+        link:'/category/datastructure',
+        'icon':'📝',
+        itemCount: 2
+      }
     ],
   };
 
