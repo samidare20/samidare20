@@ -1,5 +1,5 @@
-import {themes as prismThemes} from 'prism-react-renderer';
-import type {Config} from '@docusaurus/types';
+import { themes as prismThemes } from 'prism-react-renderer';
+import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
@@ -45,7 +45,7 @@ const config: Config = {
           routeBasePath: '/',
           // 자동 사이드바 생성을 위한 설정
           sidebarCollapsible: true,
-          sidebarCollapsed: false,
+          sidebarCollapsed: true, // 기본적으로 모든 카테고리가 닫힌 상태로 시작
           // 아코디언 모드: 하나의 폴더가 열리면 다른 폴더들이 자동으로 닫힘
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -75,13 +75,7 @@ const config: Config = {
     ],
   ],
 
-  // 사이드바 아코디언 기능을 위한 스크립트 추가
-  scripts: [
-    {
-      src: '/src/js/sidebar-accordion.js',
-      async: true,
-    },
-  ],
+
 
   themeConfig: {
     // Replace with your project's social card
@@ -125,7 +119,7 @@ const config: Config = {
           items: [
             {
               label: '시작하기',
-              to: '/docs/intro',
+              to: '/intro',
             },
           ],
         },

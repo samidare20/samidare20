@@ -9,10 +9,10 @@ export type NavigationCardsProps = {
   cards: NavigationCardProps[];
 };
 
-export default function NavigationCards({ 
+export default function NavigationCards({
   title = "문서 둘러보기",
   subtitle = "원하는 주제를 선택해서 바로 시작해보세요",
-  cards 
+  cards
 }: NavigationCardsProps): ReactNode {
   return (
     <section className={styles.navigationSection}>

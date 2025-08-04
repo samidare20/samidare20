@@ -1,2 +1,3 @@
 @echo off
-GIT_USER={samidare20} yarn deploy
+set GIT_USER=samidare20
+yarn deploy

@@ -50,12 +50,7 @@ export default function SidebarSearch(): React.JSX.Element {
       const filteredResults = filterResults(term);
       setResults(filteredResults);
       setIsSearching(false);
-      setShowResults(term.length > 0);
 
-      // 디버깅용: 수집된 문서 목록 출력
-      if (term.length === 0) {
-        console.log('수집된 문서 목록:', allDocs);
-      }
     }, 100);
   };
 
