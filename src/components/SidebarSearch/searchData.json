@@ -15,6 +15,16 @@
     "url": "/samidare20/docs/intro"
   },
   {
+    "id": "utils\\Beautify\\bash",
+    "title": "bash",
+    "url": "/samidare20/docs/utils\\Beautify\\bash"
+  },
+  {
+    "id": "utils\\Beautify\\docusaurus",
+    "title": "docusaurus",
+    "url": "/samidare20/docs/utils\\Beautify\\docusaurus"
+  },
+  {
     "id": "utils\\github\\alias",
     "title": "alias",
     "url": "/samidare20/docs/utils\\github\\alias"
@@ -23,50 +33,5 @@
     "id": "utils\\github\\stash",
     "title": "stash",
     "url": "/samidare20/docs/utils\\github\\stash"
-  },
-  {
-    "id": "utils\\tutorial-basics\\beautify",
-    "title": "beautify",
-    "url": "/samidare20/docs/utils\\tutorial-basics\\beautify"
-  },
-  {
-    "id": "utils\\tutorial-basics\\congratulations",
-    "title": "Congratulations!",
-    "url": "/samidare20/docs/utils\\tutorial-basics\\congratulations"
-  },
-  {
-    "id": "utils\\tutorial-basics\\create-a-blog-post",
-    "title": "Create a Blog Post",
-    "url": "/samidare20/docs/utils\\tutorial-basics\\create-a-blog-post"
-  },
-  {
-    "id": "utils\\tutorial-basics\\create-a-document",
-    "title": "Create a Document",
-    "url": "/samidare20/docs/utils\\tutorial-basics\\create-a-document"
-  },
-  {
-    "id": "utils\\tutorial-basics\\create-a-page",
-    "title": "Create a Page",
-    "url": "/samidare20/docs/utils\\tutorial-basics\\create-a-page"
-  },
-  {
-    "id": "utils\\tutorial-basics\\deploy-your-site",
-    "title": "Deploy your site",
-    "url": "/samidare20/docs/utils\\tutorial-basics\\deploy-your-site"
-  },
-  {
-    "id": "utils\\tutorial-basics\\markdown-features",
-    "title": "Markdown Features",
-    "url": "/samidare20/docs/utils\\tutorial-basics\\markdown-features"
-  },
-  {
-    "id": "utils\\tutorial-extras\\manage-docs-versions",
-    "title": "Manage Docs Versions",
-    "url": "/samidare20/docs/utils\\tutorial-extras\\manage-docs-versions"
-  },
-  {
-    "id": "utils\\tutorial-extras\\translate-your-site",
-    "title": "Translate your site",
-    "url": "/samidare20/docs/utils\\tutorial-extras\\translate-your-site"
   }
 ]
