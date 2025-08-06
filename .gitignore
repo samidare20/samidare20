@@ -3,7 +3,7 @@
 
 # Production
 /build
-
+src/components/SidebarSearch/searchData.json
 # Generated files
 .docusaurus
 .cache-loader
