@@ -35,28 +35,18 @@ export default function Home(): ReactNode {
     title: "문서 둘러보기",
     subtitle: "원하는 주제를 선택해서 바로 시작해보세요",
     cards: [
-      // {
-      //   title: '튜토리얼',
-      //   description: (
-      //     <>
-      //       Docusaurus 기본 사용법부터 배포까지 단계별로 학습할 수 있습니다.
-      //     </>
-      //   ),
-      //   link: '/category/tutorial---basics',
-      //   icon: '📚',
-      //   itemCount: 4,
-      // },
-      // {
-      //   title: '추가 기능',
-      //   description: (
-      //     <>
-      //       버전 관리, 다국어 지원 등 고급 기능들을 알아보세요.
-      //     </>
-      //   ),
-      //   link: '/category/tutorial---extras',
-      //   icon: '⚙️',
-      //   itemCount: 2,
-      // },
+      
+      {
+        title:'Algorithm & DataStructure',
+        description:(
+          <>
+          알고리즘이랑 자료구조
+          </>
+        ),
+        link:'/category/datastructure',
+        'icon':'📝',
+        itemCount: 2
+      },
       {
         title: 'Utils',
         description: (
@@ -68,17 +58,6 @@ export default function Home(): ReactNode {
         icon: '🔧',
         itemCount: 2,
       },
-      {
-        title:'Algorithm & DataStructure',
-        description:(
-          <>
-          알고리즘이랑 자료구조
-          </>
-        ),
-        link:'/category/datastructure',
-        'icon':'📝',
-        itemCount: 2
-      }
     ],
   };
 

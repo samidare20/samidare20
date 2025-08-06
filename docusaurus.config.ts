@@ -89,15 +89,15 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'utils',
-        },
-        {
-          type: 'docSidebar',
           sidebarId: 'algorithmSidebar',
           position: 'left',
           label: 'algorithm & DataStructure',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'tutorialSidebar',
+          position: 'left',
+          label: 'utils',
         },
         // {to: '/blog', label: '블로그', position: 'left'},
         {
@@ -120,44 +120,44 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: '커뮤니티',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: '더보기',
-          items: [
-            // {
-            //   label: '블로그',
-            //   to: '/blog',
-            // },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/samidare20/samidare20',
-            },
-            {
-              label: 'Solved.ac',
-              href: 'https://solved.ac/profile/samidare20',
-            },
-            {
-              label: '알고리즘 코드',
-              href: 'https://github.com/samidare20/hateu',
-            },
-          ],
-        },
+        // {
+        //   title: '커뮤니티',
+        //   items: [
+        //     {
+        //       label: 'Stack Overflow',
+        //       href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+        //     },
+        //     {
+        //       label: 'Discord',
+        //       href: 'https://discordapp.com/invite/docusaurus',
+        //     },
+        //     {
+        //       label: 'X',
+        //       href: 'https://x.com/docusaurus',
+        //     },
+        //   ],
+        // },
+        // {
+        //   title: '더보기',
+        //   items: [
+        //     // {
+        //     //   label: '블로그',
+        //     //   to: '/blog',
+        //     // },
+        //     {
+        //       label: 'GitHub',
+        //       href: 'https://github.com/samidare20/samidare20',
+        //     },
+        //     {
+        //       label: 'Solved.ac',
+        //       href: 'https://solved.ac/profile/samidare20',
+        //     },
+        //     {
+        //       label: '알고리즘 코드',
+        //       href: 'https://github.com/samidare20/hateu',
+        //     },
+        //   ],
+        // },
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Samidare20. Built with Docusaurus.`,
     },

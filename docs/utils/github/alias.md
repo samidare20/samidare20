@@ -6,7 +6,9 @@
 alias gs="clear ; git status"
 alias c="clear"
 alias ga="clear ; git add ."
-alias gc="clear ; git commit -m \""
+alias gc='f(){clear ; git commit -m "$@" ; unset -f f;}; f'
 alias gp="clear ; git push"
-alisas gf="clear;  git fetch"
+alias gf="clear;  git fetch"
+alias gr="f(){clear ; git rebase -i HEAD~%@ unset -f f;};f"
+zsh
 ```
