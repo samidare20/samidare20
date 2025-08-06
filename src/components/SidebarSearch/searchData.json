@@ -1,17 +1,17 @@
 [
   {
-    "id": "algorithm\\data-structures\\array",
-    "title": "배열 (Array)",
-    "url": "/samidare20/docs/algorithm\\data-structures\\array"
+    "id": "algorithm\\data-structures\\graph\\dijkstra",
+    "title": "다익스트라 (dijkstra)",
+    "url": "/samidare20/docs/algorithm\\data-structures\\graph\\dijkstra"
   },
   {
-    "id": "algorithm\\intro",
-    "title": "알고리즘 소개",
-    "url": "/samidare20/docs/algorithm\\intro"
+    "id": "algorithm\\data-structures\\graph\\Floyd-Warshall",
+    "title": "플로이드-워셜 (Floyd-Warshall)",
+    "url": "/samidare20/docs/algorithm\\data-structures\\graph\\Floyd-Warshall"
   },
   {
     "id": "intro",
-    "title": "Tutorial Intro",
+    "title": "시작하기",
     "url": "/samidare20/docs/intro"
   },
   {
@@ -23,11 +23,6 @@
     "id": "utils\\github\\stash",
     "title": "stash",
     "url": "/samidare20/docs/utils\\github\\stash"
-  },
-  {
-    "id": "utils\\github\\test\\hello",
-    "title": "alias",
-    "url": "/samidare20/docs/utils\\github\\test\\hello"
   },
   {
     "id": "utils\\tutorial-basics\\beautify",
