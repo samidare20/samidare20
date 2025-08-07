@@ -1,4 +1,4 @@
-## 서론
+## bash shell 꾸미기
 윈도우 cmd 너무 맘에 안들어서 git bash 를 기본으로 쓰고 있음
 
 일단 윈 11기준이라 그 아래 버전도 되는진 모름
@@ -52,6 +52,8 @@ https://packages.msys2.org/packages/zsh?variant=x86_64
 ### zsh 설정
 
 ```bash
+$ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
 $ vi ~/.zshrc
 ZSH_THEME="원하는 테마 이름" 
 
