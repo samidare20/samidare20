@@ -1,6 +1,7 @@
 import { themes as prismThemes } from 'prism-react-renderer';
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import sidebars from './sidebars';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -81,12 +82,14 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
+      
       title: 'Samidare20',
       logo: {
         alt: 'Samidare20 Logo',
         src: 'img/logo.svg',
       },
       items: [
+      
         {
           type: 'docSidebar',
           sidebarId: 'algorithmSidebar',

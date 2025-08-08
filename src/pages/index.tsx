@@ -32,10 +32,7 @@ export default function Home(): ReactNode {
   const { siteConfig } = useDocusaurusContext();
 
   const navigationData: NavigationCardsProps = {
-    title: "문서 둘러보기",
-    subtitle: "원하는 주제를 선택해서 바로 시작해보세요",
-    cards: [
-      
+       cards: [      
       {
         title:'Algorithm & DataStructure',
         description:(
