@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksamidare_20=self.webpackChunksamidare_20||[]).push([[8954],{3921:e=>{e.exports=JSON.parse('{"categoryGeneratedIndex":{"title":"Github","slug":"/category/github","permalink":"/samidare20/en/category/github","sidebar":"tutorialSidebar","navigation":{"next":{"title":"alias","permalink":"/samidare20/en/utils/github/alias"}}}}')}}]);
