@@ -90,18 +90,18 @@ const config: Config = {
       },
       items: [
       
-        {
-          type: 'docSidebar',
-          sidebarId: 'algorithmSidebar',
-          position: 'left',
-          label: 'algorithm & DataStructure',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
-          position: 'left',
-          label: 'utils',
-        },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'algorithmSidebar',
+        //   position: 'left',
+        //   label: 'algorithm & DataStructure',
+        // },
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'utils',
+        // },
         // {to: '/blog', label: '블로그', position: 'left'},
         {
           href: 'https://github.com/samidare20/samidare20',
