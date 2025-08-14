@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 [![Solved.ac프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=dolphine103)](https://solved.ac/dolphine103)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samidare20)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=samidare20&layout=compact)
 - my solved ps codes : https://github.com/samidare20/hateu
 - some document : https://samidare20.github.io/samidare20/
