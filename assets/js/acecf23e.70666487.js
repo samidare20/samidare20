@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunksamidare_20=globalThis.webpackChunksamidare_20||[]).push([[1903],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/samidare20/blog","blogTitle":"Blog","authorsListPath":"/samidare20/blog/authors"}')}}]);

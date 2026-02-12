@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunksamidare_20=self.webpackChunksamidare_20||[]).push([[2734],{958:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/samidare20/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
