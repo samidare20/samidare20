@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>자료구조 on Samidare Blog</title>
+        <link>//localhost:1313/categories/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/</link>
+        <description>Recent content in 자료구조 on Samidare Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ko-kr</language><atom:link href="//localhost:1313/categories/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/index.xml" rel="self" type="application/rss+xml" /></channel>
+</rss>

@@ -1,0 +1,6 @@
+[ko]
+    languageName = "한국어"
+    title        = "Samidare Blog"
+    weight       = 1
+    [ko.params.sidebar]
+        subtitle = "학습 기록 및 기술 블로그"

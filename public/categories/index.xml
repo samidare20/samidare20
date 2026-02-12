@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on Samidare Blog</title>
+        <link>//localhost:1313/categories/</link>
+        <description>Recent content in Categories on Samidare Blog</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ko-kr</language>
+        <lastBuildDate>Thu, 12 Feb 2026 10:41:00 +0900</lastBuildDate><atom:link href="//localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+            <title>Beautify</title>
+            <link>//localhost:1313/categories/beautify/</link>
+            <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
+            <guid>//localhost:1313/categories/beautify/</guid>
+            <description></description>
+        </item><item>
+            <title>DataStructure</title>
+            <link>//localhost:1313/categories/datastructure/</link>
+            <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
+            <guid>//localhost:1313/categories/datastructure/</guid>
+            <description></description>
+        </item><item>
+            <title>Github</title>
+            <link>//localhost:1313/categories/github/</link>
+            <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
+            <guid>//localhost:1313/categories/github/</guid>
+            <description></description>
+        </item><item>
+            <title>Godot</title>
+            <link>//localhost:1313/categories/godot/</link>
+            <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
+            <guid>//localhost:1313/categories/godot/</guid>
+            <description></description>
+        </item><item>
+            <title>Graph</title>
+            <link>//localhost:1313/categories/graph/</link>
+            <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
+            <guid>//localhost:1313/categories/graph/</guid>
+            <description></description>
+        </item><item>
+            <title>Utils</title>
+            <link>//localhost:1313/categories/utils/</link>
+            <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
+            <guid>//localhost:1313/categories/utils/</guid>
+            <description></description>
+        </item><item>
+            <title>그래프</title>
+            <link>//localhost:1313/categories/%EA%B7%B8%EB%9E%98%ED%94%84/</link>
+            <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
+            <guid>//localhost:1313/categories/%EA%B7%B8%EB%9E%98%ED%94%84/</guid>
+            <description></description>
+        </item><item>
+            <title>Documentation</title>
+            <link>//localhost:1313/categories/documentation/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>//localhost:1313/categories/documentation/</guid>
+            <description>&lt;img src=&#34;//localhost:1313/&#34; alt=&#34;Featured image of post Documentation&#34; /&gt;</description>
+        </item><item>
+            <title>자료구조</title>
+            <link>//localhost:1313/categories/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            <guid>//localhost:1313/categories/%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0/</guid>
+            <description></description>
+        </item></channel>
+</rss>
