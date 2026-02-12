@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Godot on Samidare Blog</title>
-        <link>//localhost:1313/categories/godot/</link>
+        <link>http://localhost:1313/samidare20/categories/godot/</link>
         <description>Recent content in Godot on Samidare Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
-        <lastBuildDate>Thu, 12 Feb 2026 10:41:00 +0900</lastBuildDate><atom:link href="//localhost:1313/categories/godot/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Feb 2026 10:41:00 +0900</lastBuildDate><atom:link href="http://localhost:1313/samidare20/categories/godot/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>Troubles</title>
-            <link>//localhost:1313/p/troubles/</link>
+            <link>http://localhost:1313/samidare20/p/troubles/</link>
             <pubDate>Thu, 12 Feb 2026 10:41:00 +0900</pubDate>
-            <guid>//localhost:1313/p/troubles/</guid>
-            <description>&lt;p&gt;godot 공부하면서 생기는 끔찍한 일들에 대해 기록함&lt;/p&gt;&#xA;&lt;h2 id=&#34;tilemap-에-관하여&#34;&gt;TileMap 에 관하여&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;이놈 이거 아무래도 4버전 업데이트가 진행되며 사용이 권장되지 않는 모양&lt;/p&gt;&#xA;&lt;p&gt;공부하던 영상은 사용해도 별 문제 없었는데 4.4 버전 기준으로 공부하던 나는 노드 오른쪽에 오류가 붙은 것을 보게 되어 버렸음&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/assets/bash/TiileMap1.png&#34;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;loading=&#34;lazy&#34;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&#x9;alt=&#34;asdf&#34;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&#xD;&#xA;&gt;&lt;/p&gt;&#xA;&lt;p&gt;이젠 TileMapLayer이라는 친구를 대신 사용하라느 뜻으로 보임&#xA;그래도 자동 변환 기능은 만들어줬네&lt;/p&gt;&#xA;&lt;p&gt;추후에는 아예 사라져 버릴지도 몰라&lt;/p&gt;&#xA;</description>
+            <guid>http://localhost:1313/samidare20/p/troubles/</guid>
+            <description>&lt;p&gt;godot 공부하면서 생기는 끔찍한 일들에 대해 기록함&lt;/p&gt;&#xA;&lt;h2 id=&#34;tilemap-에-관하여&#34;&gt;TileMap 에 관하여&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;이놈 이거 아무래도 4버전 업데이트가 진행되며 사용이 권장되지 않는 모양&lt;/p&gt;&#xA;&lt;p&gt;공부하던 영상은 사용해도 별 문제 없었는데 4.4 버전 기준으로 공부하던 나는 노드 오른쪽에 오류가 붙은 것을 보게 되어 버렸음&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/samidare20/assets/bash/TiileMap1.png&#34;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;loading=&#34;lazy&#34;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&#x9;alt=&#34;asdf&#34;&#xD;&#xA;&#x9;&#xD;&#xA;&#x9;&#xD;&#xA;&gt;&lt;/p&gt;&#xA;&lt;p&gt;이젠 TileMapLayer이라는 친구를 대신 사용하라느 뜻으로 보임&#xA;그래도 자동 변환 기능은 만들어줬네&lt;/p&gt;&#xA;&lt;p&gt;추후에는 아예 사라져 버릴지도 몰라&lt;/p&gt;&#xA;</description>
         </item></channel>
 </rss>

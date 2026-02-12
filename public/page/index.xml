@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Pages on Samidare Blog</title>
-        <link>//localhost:1313/page/</link>
+        <link>http://localhost:1313/samidare20/page/</link>
         <description>Recent content in Pages on Samidare Blog</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ko-kr</language>
-        <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/samidare20/page/index.xml" rel="self" type="application/rss+xml" /><item>
             <title>소개</title>
-            <link>//localhost:1313/%EC%86%8C%EA%B0%9C/</link>
+            <link>http://localhost:1313/samidare20/%EC%86%8C%EA%B0%9C/</link>
             <pubDate>Thu, 12 Feb 2026 00:00:00 +0000</pubDate>
-            <guid>//localhost:1313/%EC%86%8C%EA%B0%9C/</guid>
-            <description>&lt;h2 id=&#34;작성자-소개&#34;&gt;작성자 소개&#xD;&#xA;&lt;/h2&gt;&lt;p&gt;안녕하세요! 기술에 관심이 많은 블로거입니다.&lt;/p&gt;&#xA;&lt;h3 id=&#34;보유-기술&#34;&gt;보유 기술&#xD;&#xA;&lt;/h3&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Front-end&lt;/strong&gt;: React, Docusaurus (이전)&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Back-end&lt;/strong&gt;: Node.js&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tools&lt;/strong&gt;: Git, Hugo&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;연락처&#34;&gt;연락처&#xD;&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;: &lt;a class=&#34;link&#34; href=&#34;https://github.com&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;    &gt;내 깃허브&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;</description>
+            <guid>http://localhost:1313/samidare20/%EC%86%8C%EA%B0%9C/</guid>
+            <description>&lt;!-- ## 작성자 소개&#xD;&#xA;&#xD;&#xA;안녕하세요! 기술에 관심이 많은 블로거입니다.&#xD;&#xA;&#xD;&#xA;### 보유 기술&#xD;&#xA;&#xD;&#xA;- **Front-end**: React, Docusaurus (이전)&#xD;&#xA;- **Back-end**: Node.js&#xD;&#xA;- **Tools**: Git, Hugo --&gt;&#xD;&#xA;&lt;h2 id=&#34;연락처&#34;&gt;연락처&#xD;&#xA;&lt;/h2&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/samidare20&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;&#xD;&#xA;    &gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;</description>
         </item><item>
             <title>아카이브</title>
-            <link>//localhost:1313/archives/</link>
+            <link>http://localhost:1313/samidare20/archives/</link>
             <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-            <guid>//localhost:1313/archives/</guid>
+            <guid>http://localhost:1313/samidare20/archives/</guid>
             <description></description>
         </item><item>
             <title>검색</title>
-            <link>//localhost:1313/search/</link>
+            <link>http://localhost:1313/samidare20/search/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>//localhost:1313/search/</guid>
+            <guid>http://localhost:1313/samidare20/search/</guid>
             <description></description>
         </item><item>
             <title>링크</title>
-            <link>//localhost:1313/%EB%A7%81%ED%81%AC/</link>
+            <link>http://localhost:1313/samidare20/%EB%A7%81%ED%81%AC/</link>
             <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-            <guid>//localhost:1313/%EB%A7%81%ED%81%AC/</guid>
+            <guid>http://localhost:1313/samidare20/%EB%A7%81%ED%81%AC/</guid>
             <description>&lt;h2 id=&#34;이-기능을-사용하려면-프론트매터에-links-섹션을-추가하세요&#34;&gt;이 기능을 사용하려면 프론트매터에 &lt;code&gt;links&lt;/code&gt; 섹션을 추가하세요.&#xD;&#xA;&lt;/h2&gt;</description>
         </item></channel>
 </rss>
